@@ -3,7 +3,7 @@
 
 
 .back{
-    background-image: url(".living.jpg");
+    background-image: url("living.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0px;
@@ -12,7 +12,6 @@
     
 }
     .padre{
-        /*background: indigo;*/
         display: flex;
         flex-flow: column nowrap;
         }
@@ -79,7 +78,6 @@
                     
                 }
         .section{
-            /*background: burlywood;*/
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
