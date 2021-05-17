@@ -3,7 +3,7 @@
 
 
 .back{
-    background-image: url("living.jpg");
+    background-image: src("living.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0px;
