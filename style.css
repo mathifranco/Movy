@@ -1,0 +1,225 @@
+
+
+
+
+.back{
+    background-image: url("images/living.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    flex-shrink: 0;
+    background-color: black;
+    
+}
+    .padre{
+        /*background: indigo;*/
+        display: flex;
+        flex-flow: column nowrap;
+        }
+        .header{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+            .menu{
+                display: flex;
+                flex-flow: row nowrap;
+                height: 100px;
+                align-items: center;
+            }
+                h1{
+                    margin-top: -5px;
+                }
+                .logo{
+                    flex: 5 1 auto;
+                    height: 40px;
+                    color: whitesmoke;
+                    font-family: 'Exo', sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-left: 100px;
+                    padding-bottom: 30px;
+                }
+                    .oval{
+                        width: 9px;
+                        height: 9px;
+                        background: #0578FF;
+                        border-radius: 1000px;
+                        margin-left: 65px;
+                }
+                .register{
+                    flex: 1 1 auto;
+                    height: 40px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    }
+                .login{
+                    flex: 1 1 auto;
+                    flex-basis: 80px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    width: 30px;
+                    height: 45px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background: #0578ff;
+                    color: #fff;
+                    font-size: 20px;
+                    outline: none;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 20px;
+                    
+                }
+        .section{
+            /*background: burlywood;*/
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            padding-top: 50px;
+            }
+            .login-box{
+                background: #000000e7;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 440px;
+                height: 517px;
+                border-radius: 4px;   
+            }
+
+            .login-box h1{
+                color:aliceblue;
+                font-size: 35px;
+                font-weight: normal;
+                padding-top: 50px;
+            }
+            .login-box input {
+                width: auto;
+                height: 45px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+                font-size: 18px;
+                padding: 0 0 0 20px;
+                outline: none;
+                border-radius: 5px;
+                border: 0px solid;
+                justify-content: center;
+            }
+            
+
+            .form-section{
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                box-sizing: border-box;
+                align-items: stretch;
+                margin: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .remember-line, .help{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items:stretch;
+                align-content: inherit;
+                font-size: 15px;
+                color: white;
+            }
+
+            .ayuda{
+                padding-top: 15px;
+                padding-left: 100px;
+            }
+
+            a:link, a:visited, a:active{
+                outline: none;
+                text-decoration: none;
+                color: white;
+            }
+            .button{
+                width: auto;
+                height: 45px;
+                background: #0578ff;
+                color: #fff;
+                font-size: 35px;
+                outline: none;
+                cursor: pointer;
+                border: none;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .fbline{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    font-size: 15px;
+                    color: white;
+                    padding-bottom: 15px;
+                }
+                .fb-icon{
+                    width: 20px; height: 20px;
+                    margin-right: 10px;
+                }
+
+                .subscribe{
+                    padding-bottom: 50px;
+                }
+
+        footer{
+            z-index: 100%;
+            height: 300px;
+            padding-bottom: 200px;
+            background: linear-gradient(to bottom, rgba(255,255,255,0), rgb(0, 0, 0)25%);
+            flex-flow: row wrap;
+            flex: 1 1 auto;
+        }
+            .nav-footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                flex-flow: row wrap;
+                flex: 1 1 auto;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 500;
+                font-size: 30px;
+                padding-top: 100px;
+                padding-left: 100px;
+            }
+            .sheet{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight:normal;
+                font-size: 15px;
+                display: flex;
+                flex: 1 1 auto;
+                align-items: center;
+                flex-flow: row wrap;
+                justify-content: center;
+                margin-top: 50px;
+            }
+            
+            .sheet-item{
+                margin: 10px 50px 20px 50px;
+                text-align: center;
+                width: 200px;
+            }
